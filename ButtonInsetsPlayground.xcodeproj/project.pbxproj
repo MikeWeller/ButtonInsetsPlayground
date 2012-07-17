@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278F901815B57BFC0028A4E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F901715B57BFC0028A4E3 /* UIKit.framework */; };
+		278F901A15B57BFC0028A4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F901915B57BFC0028A4E3 /* Foundation.framework */; };
+		278F901C15B57BFC0028A4E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 278F901B15B57BFC0028A4E3 /* CoreGraphics.framework */; };
+		278F902215B57BFC0028A4E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 278F902015B57BFC0028A4E3 /* InfoPlist.strings */; };
+		278F902415B57BFC0028A4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F902315B57BFC0028A4E3 /* main.m */; };
+		278F902815B57BFC0028A4E3 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F902715B57BFC0028A4E3 /* MWAppDelegate.m */; };
+		278F902B15B57BFC0028A4E3 /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F902A15B57BFC0028A4E3 /* MWViewController.m */; };
+		278F902E15B57BFC0028A4E3 /* MWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F902C15B57BFC0028A4E3 /* MWViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		278F901315B57BFC0028A4E3 /* ButtonInsetsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonInsetsPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278F901715B57BFC0028A4E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		278F901915B57BFC0028A4E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		278F901B15B57BFC0028A4E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		278F901F15B57BFC0028A4E3 /* ButtonInsetsPlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonInsetsPlayground-Info.plist"; sourceTree = "<group>"; };
+		278F902115B57BFC0028A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		278F902315B57BFC0028A4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		278F902515B57BFC0028A4E3 /* ButtonInsetsPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonInsetsPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		278F902615B57BFC0028A4E3 /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		278F902715B57BFC0028A4E3 /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		278F902915B57BFC0028A4E3 /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
+		278F902A15B57BFC0028A4E3 /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
+		278F902D15B57BFC0028A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278F901015B57BFC0028A4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278F901815B57BFC0028A4E3 /* UIKit.framework in Frameworks */,
+				278F901A15B57BFC0028A4E3 /* Foundation.framework in Frameworks */,
+				278F901C15B57BFC0028A4E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278F900815B57BFC0028A4E3 = {
+			isa = PBXGroup;
+			children = (
+				278F901D15B57BFC0028A4E3 /* ButtonInsetsPlayground */,
+				278F901615B57BFC0028A4E3 /* Frameworks */,
+				278F901415B57BFC0028A4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		278F901415B57BFC0028A4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278F901315B57BFC0028A4E3 /* ButtonInsetsPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278F901615B57BFC0028A4E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278F901715B57BFC0028A4E3 /* UIKit.framework */,
+				278F901915B57BFC0028A4E3 /* Foundation.framework */,
+				278F901B15B57BFC0028A4E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		278F901D15B57BFC0028A4E3 /* ButtonInsetsPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				278F902615B57BFC0028A4E3 /* MWAppDelegate.h */,
+				278F902715B57BFC0028A4E3 /* MWAppDelegate.m */,
+				278F902915B57BFC0028A4E3 /* MWViewController.h */,
+				278F902A15B57BFC0028A4E3 /* MWViewController.m */,
+				278F902C15B57BFC0028A4E3 /* MWViewController.xib */,
+				278F901E15B57BFC0028A4E3 /* Supporting Files */,
+			);
+			path = ButtonInsetsPlayground;
+			sourceTree = "<group>";
+		};
+		278F901E15B57BFC0028A4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				278F901F15B57BFC0028A4E3 /* ButtonInsetsPlayground-Info.plist */,
+				278F902015B57BFC0028A4E3 /* InfoPlist.strings */,
+				278F902315B57BFC0028A4E3 /* main.m */,
+				278F902515B57BFC0028A4E3 /* ButtonInsetsPlayground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278F901215B57BFC0028A4E3 /* ButtonInsetsPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278F903115B57BFC0028A4E3 /* Build configuration list for PBXNativeTarget "ButtonInsetsPlayground" */;
+			buildPhases = (
+				278F900F15B57BFC0028A4E3 /* Sources */,
+				278F901015B57BFC0028A4E3 /* Frameworks */,
+				278F901115B57BFC0028A4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonInsetsPlayground;
+			productName = ButtonInsetsPlayground;
+			productReference = 278F901315B57BFC0028A4E3 /* ButtonInsetsPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278F900A15B57BFC0028A4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MW;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Michael Weller";
+			};
+			buildConfigurationList = 278F900D15B57BFC0028A4E3 /* Build configuration list for PBXProject "ButtonInsetsPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 278F900815B57BFC0028A4E3;
+			productRefGroup = 278F901415B57BFC0028A4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278F901215B57BFC0028A4E3 /* ButtonInsetsPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278F901115B57BFC0028A4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278F902215B57BFC0028A4E3 /* InfoPlist.strings in Resources */,
+				278F902E15B57BFC0028A4E3 /* MWViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278F900F15B57BFC0028A4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278F902415B57BFC0028A4E3 /* main.m in Sources */,
+				278F902815B57BFC0028A4E3 /* MWAppDelegate.m in Sources */,
+				278F902B15B57BFC0028A4E3 /* MWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		278F902015B57BFC0028A4E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278F902115B57BFC0028A4E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		278F902C15B57BFC0028A4E3 /* MWViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278F902D15B57BFC0028A4E3 /* en */,
+			);
+			name = MWViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278F902F15B57BFC0028A4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		278F903015B57BFC0028A4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278F903215B57BFC0028A4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonInsetsPlayground/ButtonInsetsPlayground-Prefix.pch";
+				INFOPLIST_FILE = "ButtonInsetsPlayground/ButtonInsetsPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		278F903315B57BFC0028A4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonInsetsPlayground/ButtonInsetsPlayground-Prefix.pch";
+				INFOPLIST_FILE = "ButtonInsetsPlayground/ButtonInsetsPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278F900D15B57BFC0028A4E3 /* Build configuration list for PBXProject "ButtonInsetsPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278F902F15B57BFC0028A4E3 /* Debug */,
+				278F903015B57BFC0028A4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278F903115B57BFC0028A4E3 /* Build configuration list for PBXNativeTarget "ButtonInsetsPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278F903215B57BFC0028A4E3 /* Debug */,
+				278F903315B57BFC0028A4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278F900A15B57BFC0028A4E3 /* Project object */;
+}

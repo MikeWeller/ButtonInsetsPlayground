@@ -1,0 +1,7 @@
+.gitattributes
+.DS_Store
+xcuserdata
+*.xcworkspace
+*.mode1v3
+*.pbxuser
+build

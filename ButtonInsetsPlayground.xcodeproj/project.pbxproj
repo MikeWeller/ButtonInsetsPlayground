@@ -15,6 +15,9 @@
 		278F902815B57BFC0028A4E3 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F902715B57BFC0028A4E3 /* MWAppDelegate.m */; };
 		278F902B15B57BFC0028A4E3 /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F902A15B57BFC0028A4E3 /* MWViewController.m */; };
 		278F902E15B57BFC0028A4E3 /* MWViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278F902C15B57BFC0028A4E3 /* MWViewController.xib */; };
+		278F903515B57F890028A4E3 /* green30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 278F903415B57F890028A4E3 /* green30x30.png */; };
+		278F903815B5990B0028A4E3 /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 278F903615B5990B0028A4E3 /* buttonBackground.png */; };
+		278F903915B5990B0028A4E3 /* buttonBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 278F903715B5990B0028A4E3 /* buttonBackground@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		278F902915B57BFC0028A4E3 /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
 		278F902A15B57BFC0028A4E3 /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
 		278F902D15B57BFC0028A4E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MWViewController.xib; sourceTree = "<group>"; };
+		278F903415B57F890028A4E3 /* green30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green30x30.png; sourceTree = "<group>"; };
+		278F903615B5990B0028A4E3 /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground.png; sourceTree = "<group>"; };
+		278F903715B5990B0028A4E3 /* buttonBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBackground@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,9 @@
 		278F901D15B57BFC0028A4E3 /* ButtonInsetsPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				278F903615B5990B0028A4E3 /* buttonBackground.png */,
+				278F903715B5990B0028A4E3 /* buttonBackground@2x.png */,
+				278F903415B57F890028A4E3 /* green30x30.png */,
 				278F902615B57BFC0028A4E3 /* MWAppDelegate.h */,
 				278F902715B57BFC0028A4E3 /* MWAppDelegate.m */,
 				278F902915B57BFC0028A4E3 /* MWViewController.h */,
@@ -152,6 +161,9 @@
 			files = (
 				278F902215B57BFC0028A4E3 /* InfoPlist.strings in Resources */,
 				278F902E15B57BFC0028A4E3 /* MWViewController.xib in Resources */,
+				278F903515B57F890028A4E3 /* green30x30.png in Resources */,
+				278F903815B5990B0028A4E3 /* buttonBackground.png in Resources */,
+				278F903915B5990B0028A4E3 /* buttonBackground@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

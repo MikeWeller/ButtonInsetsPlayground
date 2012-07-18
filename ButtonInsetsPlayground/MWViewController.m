@@ -17,12 +17,14 @@ enum MWInsetSelection {
 
 @interface MWViewController ()
 
-@property (strong, nonatomic) IBOutlet UIButton *button;
-@property (strong, nonatomic) IBOutlet UISegmentedControl *segmentedControl;
-@property (strong, nonatomic) IBOutlet UISlider *topSlider;
-@property (strong, nonatomic) IBOutlet UISlider *leftSlider;
-@property (strong, nonatomic) IBOutlet UISlider *bottomSlider;
-@property (strong, nonatomic) IBOutlet UISlider *rightSlider;
+@property (nonatomic, strong) IBOutlet UIButton *button;
+@property (nonatomic, strong) IBOutlet UISegmentedControl *segmentedControl;
+@property (nonatomic, strong) IBOutlet UISlider *topSlider;
+@property (nonatomic, strong) IBOutlet UISlider *leftSlider;
+@property (nonatomic, strong) IBOutlet UISlider *bottomSlider;
+@property (nonatomic, strong) IBOutlet UISlider *rightSlider;
+
+@property (nonatomic, strong) IBOutlet UILabel *currentValueLabel;
 
 @property (nonatomic, copy) NSString *observedPropertyName;
 
@@ -37,6 +39,7 @@ enum MWInsetSelection {
 @synthesize bottomSlider = _bottomSlider;
 @synthesize rightSlider = _rightSlider;
 @synthesize observedPropertyName = _observedPropertyName;
+@synthesize currentValueLabel = _currentValueLabel;
 
 - (IBAction)selectedSegmentChanged:(id)sender {
 	[self switchToCurrentlySelectedInset];
@@ -102,6 +105,7 @@ enum MWInsetSelection {
 
 	UIEdgeInsets insets = [wrappedInsetsValue UIEdgeInsetsValue];
 	[self updateSlidersForInsets:insets];
+	[self updateCurrentValueLabelForInsets:insets];
 }
 
 - (void)updateSlidersForInsets:(UIEdgeInsets)insets
@@ -112,6 +116,11 @@ enum MWInsetSelection {
 	self.rightSlider.value = insets.right;
 }
 
+- (void)updateCurrentValueLabelForInsets:(UIEdgeInsets)insets
+{
+	self.currentValueLabel.text = NSStringFromUIEdgeInsets(insets);
+}
+
 - (IBAction)sliderChanged:(id)sender {
 	UIEdgeInsets insets = UIEdgeInsetsMake(self.topSlider.value,
 					       self.leftSlider.value,
@@ -119,10 +128,8 @@ enum MWInsetSelection {
 					       self.rightSlider.value);
 
 	insets = [self pixelAlignedInsets:insets forScale:self.view.window.screen.scale];
-
 	[self setCurrentlySelectedInsetsTo:insets];
 }
-
 
 - (UIEdgeInsets)pixelAlignedInsets:(UIEdgeInsets)insets forScale:(CGFloat)scale
 {

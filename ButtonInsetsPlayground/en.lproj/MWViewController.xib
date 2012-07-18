@@ -132,8 +132,8 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<float key="IBUIMinValue">-100</float>
-						<float key="IBUIMaxValue">100</float>
+						<float key="IBUIMinValue">-75</float>
+						<float key="IBUIMaxValue">75</float>
 					</object>
 					<object class="IBUILabel" id="83469492">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -148,7 +148,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">-100pt</string>
+						<string key="IBUIText">-75pt</string>
 						<object class="NSColor" key="IBUITextColor" id="397812187">
 							<int key="NSColorSpace">1</int>
 							<bytes key="NSRGB">MCAwIDAAA</bytes>
@@ -179,7 +179,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">+100pt</string>
+						<string key="IBUIText">+75pt</string>
 						<reference key="IBUITextColor" ref="397812187"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">0</int>
@@ -200,8 +200,8 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<float key="IBUIMinValue">-100</float>
-						<float key="IBUIMaxValue">100</float>
+						<float key="IBUIMinValue">-75</float>
+						<float key="IBUIMaxValue">75</float>
 					</object>
 					<object class="IBUILabel" id="263861852">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -266,8 +266,8 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<float key="IBUIMinValue">-100</float>
-						<float key="IBUIMaxValue">100</float>
+						<float key="IBUIMinValue">-75</float>
+						<float key="IBUIMaxValue">75</float>
 					</object>
 					<object class="IBUILabel" id="720320143">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -303,8 +303,8 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<float key="IBUIMinValue">-100</float>
-						<float key="IBUIMaxValue">100</float>
+						<float key="IBUIMinValue">-75</float>
+						<float key="IBUIMaxValue">75</float>
 					</object>
 					<object class="IBUILabel" id="773448546">
 						<reference key="NSNextResponder" ref="774585933"/>
@@ -535,19 +535,19 @@
 						<reference key="object" ref="774585933"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="492717400"/>
-							<reference ref="245909944"/>
 							<reference ref="720320143"/>
-							<reference ref="916947685"/>
 							<reference ref="773448546"/>
 							<reference ref="958710591"/>
-							<reference ref="337137100"/>
-							<reference ref="496564772"/>
 							<reference ref="263861852"/>
 							<reference ref="767547449"/>
-							<reference ref="83469492"/>
-							<reference ref="237245886"/>
 							<reference ref="912995496"/>
 							<reference ref="300930747"/>
+							<reference ref="337137100"/>
+							<reference ref="496564772"/>
+							<reference ref="245909944"/>
+							<reference ref="916947685"/>
+							<reference ref="237245886"/>
+							<reference ref="83469492"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>

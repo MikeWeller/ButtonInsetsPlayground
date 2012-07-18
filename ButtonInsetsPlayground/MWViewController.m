@@ -183,6 +183,8 @@ enum MWInsetSelection {
 	[self.button setBackgroundImage:[self buttonBackgroundImage]
 			       forState:UIControlStateNormal];
 	self.button.titleLabel.backgroundColor = [UIColor redColor];
+	self.button.imageView.clipsToBounds = YES;
+	self.button.imageView.backgroundColor = [UIColor yellowColor];
 }
 
 - (UIImage *)buttonBackgroundImage

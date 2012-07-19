@@ -7,6 +7,7 @@
 //
 
 #import "MWViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 /* Values must match up with segmented control indices */
 enum MWInsetSelection {
@@ -182,6 +183,16 @@ enum MWInsetSelection {
 	[self setupButton];
 	[self switchToCurrentlySelectedInset];
 	[self sizeButtonToFit];
+        [self addBordersToViewAndSubviews:self.button];
+}
+
+- (void)addBordersToViewAndSubviews:(UIView *)view
+{
+        for (UIView *child in view.subviews) {
+                child.layer.borderWidth = 1.0f;
+                child.layer.borderColor = [[UIColor blackColor] CGColor];
+                [self addBordersToViewAndSubviews:child];
+        }
 }
 
 - (void)setupButton

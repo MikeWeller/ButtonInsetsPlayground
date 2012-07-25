@@ -166,10 +166,11 @@ enum MWInsetSelection {
 - (void)sizeButtonToFit
 {
 	CGSize size = [self.button sizeThatFits:CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX)];
-	self.button.frame = CGRectMake((self.view.bounds.size.width - size.width) / 2,
-				       self.button.frame.origin.y,
-				       size.width,
-				       size.height);
+	CGRect idealFrame = CGRectMake((self.view.bounds.size.width - size.width) / 2,
+				  self.button.frame.origin.y,
+				  size.width,
+				  size.height);
+	self.button.frame = CGRectIntegral(idealFrame);
 }
 
 - (IBAction)resetButtonPressed:(id)sender {
